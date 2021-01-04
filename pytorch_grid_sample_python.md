@@ -1,3 +1,4 @@
+```
 def grid_sampler_unnormalize(coord, side, align_corners):
     if align_corners:
         return ((coord + 1) / 2) * (side - 1)
@@ -62,3 +63,4 @@ def bilinear_interpolate_torch_2D(image, grid, align_corners=False):
 
                     output_tensor[n, c, h, w] = out_ch_val
     return output_tensor
+```
