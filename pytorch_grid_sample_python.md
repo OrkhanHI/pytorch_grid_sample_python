@@ -1,4 +1,4 @@
-***pytorch.nn.functional.grid_sample with Zero Padding***
+***torch.nn.functional.grid_sample with Zero Padding***
 ```
 def grid_sampler_unnormalize(coord, side, align_corners):
     if align_corners:
